@@ -1,0 +1,165 @@
+﻿body{
+	font-family: 'Droid Sans', sans-serif;
+	font-size:100%;
+	background: url('../images/login_bg.jpg') no-repeat fixed center;
+	background-size: cover;
+    height: 430px;
+}
+
+
+.login-head {
+	padding: 2em 0;
+	background: #708090;
+	position:relative;
+}
+
+.login-head h1 {
+	color: #fff;
+	font-size: 1.5em;
+	text-align: left;
+	margin: 0 23px;
+}
+
+form {
+	padding: 3em 2em;
+	background: #F2F2F2;
+	
+}
+form li{
+	border: 2px ridge rgba(187, 185, 189, 0.11);
+	border-radius: 0.3em;
+	-webkit-border-radius:0.3em;
+	-moz-border-radius:0.3em;
+	-o-border-radius:0.3em;
+	list-style:none;
+	margin-bottom:12px;
+	background:#F0EEF0;
+
+}
+
+.icon{
+	background:url(../images/icons.png)  no-repeat 0px 0px;
+	height:30px;
+	width:30px;
+	display: block;
+	float: right;
+	margin: 12px 9px 9px 0px;
+}
+.user{
+	background: url(../images/icons.png) no-repeat 7px 1px;
+	
+}
+.lock{
+	background: url(../images/icons.png) no-repeat -22px 1px;
+}
+
+input[type="text"], input[type="password"] {
+	font-family: 'Droid Sans', sans-serif;
+	width:70%;
+	padding: 0.5em 2em 0.5em 1em;
+	color: #483D8B;
+	font-size:20px;
+	outline: none;
+	background: none;
+	border:none;
+}
+input[type="text"]:hover, input[type="password"]:hover{
+	color:#483D8B;
+	
+}
+.submit h4 a{
+	float:left;
+	font-size: 16px;
+	color: #999;
+	font-weight: 400;
+	font-family: 'Droid Sans', sans-serif;
+	margin-top: 15px;
+	margin-left: 21px;
+}
+.submit h4 a:hover{
+	color:#8D4294;
+}
+/*************************/
+.submit{
+	padding-top:3em;
+}
+input[type="submit"] {
+	float: left;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 900;
+	outline: none;
+	font-family: 'Raleway', sans-serif;
+	padding: 12px 0px;
+	width: 35%;
+	font-size: 18px;
+	background:#708090;
+	border:2px solid #708090;
+	border-radius: 0.5em;
+	-webkit-border-radius:0.5em;
+	-moz-border-radius:0.5em;
+	-o-border-radius:0.5em;
+}
+input[type="submit"]:hover {
+	background: #fff;
+	color:#708090;
+	border:2px solid #708090;
+}
+/*----*/
+/* footer */
+.footer{
+	position: absolute;
+	bottom: 76px;
+	left: 45%;
+}
+.footer p{
+	position:relative;
+	font-family: 'Droid Sans', sans-serif;
+	color:#fff;
+	display: block;
+	font-size:1.2em;
+	font-weight: 400;
+	text-align:center;
+	padding-top:2em;
+}
+.footer p a{
+	color:#000;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+}
+.footer p a:hover{
+	color:#fff
+}
+.message {
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2) inset, 0 1px 0 rgba(255,255,255,0.1) inset, 0 1px 2px rgba(0,0,0,0.4);
+	position: relative;
+}
+.warning {
+	text-align: center;
+	margin: 14% auto;
+	width: 493px;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+    top: -89px;
+    left: -3px;
+    height: 348px;
+}
+.alert-close {
+	background: url('../images/into.png') no-repeat 0px 3px;
+	cursor: pointer;
+	height: 30px;
+	position: absolute;
+	right: 12px;
+	top: 34px;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	width: 30px;
+}
+
